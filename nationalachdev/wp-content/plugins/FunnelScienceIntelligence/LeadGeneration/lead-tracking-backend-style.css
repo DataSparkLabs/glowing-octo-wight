@@ -1,0 +1,56 @@
+/* 
+    Document   : lead-tracking-backend-style
+    Created on : Jan 3, 2013, 11:36:26 AM
+    Author     : rudyard
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.fsi-loader
+{
+    background-image: url('images/loader.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 100%;    
+}
+table.dataTable tr.odd 
+{
+    background-color: #EEEEEE;
+}
+table.dataTable tr.odd td.sorting_1
+{
+    background-color: #EEEEEE;
+}
+table.dataTable tr.even
+{
+    background-color: #F8F8F8;
+}
+table.dataTable tr.even td.sorting_1
+{
+    background-color: #F8F8F8;
+}
+table.dataTable tr td a
+{
+    color: #26733A;
+    font-weight: bold;
+}
+table.dataTable tr td a:hover
+{
+    color: #d54e21;
+}
+#edit-lead-form-form div.row
+{
+    margin: 8px 0;
+}
+#edit-lead-form-form div.label
+{
+    display: inline-block;
+    width: 125px;
+    text-align: right;
+    margin-right: 3px;
+}
+#edit-lead-form-form label.error
+{
+    color: red;
+}

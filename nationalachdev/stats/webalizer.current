@@ -1,0 +1,300 @@
+# Webalizer V2.01-10 Incremental Data - 07/07/2014 18:21:21
+2014 7 7 18 21 21
+219 132 2 74 11 2 2328914 31 2 0 0 0
+2 57 162 7 7
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+219 132 2328914 2 31 2 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+162 76 1530041 22 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+57 56 798873 9 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0
+0
+0
+132
+0
+0
+0
+0
+0
+0
+0
+2
+3
+0
+82
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/wp-content/plugins/FsForms/lib/jQueryUI/js/jquery-ui-1.10.4.custom.min.js
+0 2 0 121390 0 0 0 0
+/wp-includes/css/buttons.min.css
+0 1 0 1215 0 0 0 0
+/wp-content/themes/NationalACH/images/gearIcon.png
+1 3 0 7992 0 0 0 0
+/
+0 7 0 28028 2 0 0 0
+/services/
+0 2 0 10900 0 0 0 0
+/wp-content/plugins/FsForms/lib/jQueryUI/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png
+1 1 0 208 0 0 0 0
+/wp-content/themes/NationalACH/images/cartIcon.png
+1 3 0 10670 0 0 0 0
+/wp-content/plugins/FsForms/lib/jQueryUI/css/smoothness/jquery-ui-1.10.4.custom.min.css
+0 9 0 9888 0 0 0 0
+/wp-content/plugins/FsForms/lib/jquery.form.js
+0 2 0 18322 0 0 0 0
+/wp-admin/
+0 1 0 13581 0 0 0 0
+/wp-content/themes/NationalACH/images/contact-top-bg.png
+1 2 0 107168 0 0 0 0
+/wp-content/themes/NationalACH/images/ipad.png
+1 3 0 472198 0 0 0 0
+/wp-content/themes/NationalACH/images/main-nav.png
+1 4 0 778 0 0 0 0
+/wp-includes/js/jquery/jquery-migrate.min.js
+0 5 0 6126 0 0 0 0
+/wp-content/themes/NationalACH/script/global.js
+0 4 0 2792 0 0 0 0
+/wp-admin/css/colors.min.css
+0 5 0 6562 0 0 0 0
+/wp-includes/js/zxcvbn.min.js
+0 1 0 330112 0 0 0 0
+/wp-admin/user-new.php
+0 1 0 8381 0 0 0 0
+/wp-admin/admin-ajax.php
+0 1 0 4139 0 0 0 0
+/wp-content/themes/NationalACH/images/request-demo-hover.png
+1 1 0 16977 0 0 0 0
+/wp-content/themes/NationalACH/images/arrow.png
+1 2 0 400 0 0 0 0
+/wp-content/themes/NationalACH/images/header.png
+1 4 0 512 0 0 0 0
+/wp-content/themes/NationalACH/style.css
+0 4 0 6214 0 0 0 0
+/get-a-quote/
+0 1 0 4990 0 0 0 0
+/wp-content/themes/NationalACH/images/content-bottom.png
+1 2 0 2432 0 0 0 0
+/wp-content/themes/NationalACH/images/pre-footer.png
+1 4 0 260 0 0 0 0
+/wp-content/themes/NationalACH/images/content-bg.png
+1 2 0 412 0 0 0 0
+/wp-content/themes/NationalACH/images/logo.png
+1 4 0 12854 0 0 0 0
+/wp-content/uploads/2012/10/E-check-graphic.jpg
+1 1 0 61397 0 0 0 0
+/wp-includes/js/tw-sack.min.js
+0 4 0 1142 0 0 0 0
+/wp-content/themes/NationalACH/images/bucketButton3.png
+1 3 0 18154 0 0 0 0
+/wp-content/plugins/shareaholic/assets/img/shareaholic_16x16_2.png
+1 1 0 1854 0 0 0 0
+/wp-content/themes/NationalACH/images/sliderNavBackground.jpg
+1 3 0 28334 0 0 0 0
+/wp-content/themes/NationalACH/images/bucket.png
+1 3 0 119458 0 0 0 0
+/wp-content/themes/NationalACH/images/bucketButton2.png
+1 3 0 18370 0 0 0 0
+/wp-content/themes/NationalACH/images/sub-menu-bottom-bg.png
+1 3 0 5978 0 0 0 0
+/wp-content/plugins/FsForms/lib/jquery.validate.min.js
+0 2 0 12948 0 0 0 0
+/wp-includes/js/thickbox/thickbox.css
+0 4 0 1305 0 0 0 0
+/wp-content/plugins/FsForms/style/fs-forms-style.css
+0 9 0 1030 0 0 0 0
+/wp-content/themes/NationalACH/images/bucketButton1.png
+1 3 0 18016 0 0 0 0
+/services/ach-echeck-processing/
+0 1 0 5264 0 0 0 0
+/wp-content/plugins/all-in-one-seo-pack/quickedit_functions.js
+0 1 0 795 0 0 0 0
+/wp-content/plugins/FsForms/Analytics/fs-analytics-controller-script.js
+0 4 0 2064 0 0 0 0
+/wp-admin/load-scripts.php
+0 6 0 253892 0 0 0 0
+/favicon.ico
+0 2 0 14716 0 0 0 0
+/wp-content/themes/NationalACH/images/slide-button.png
+1 3 0 890 0 0 0 0
+/wp-content/plugins/FsForms/style/fs-form-view-style.css
+0 9 0 1418 0 0 0 0
+/wp-content/themes/NationalACH/images/header-seperator.png
+1 4 0 514 0 0 0 0
+/wp-content/plugins/FsForms/PhoneTracking/fs-phone-controller-script.js
+0 4 0 1348 0 0 0 0
+/wp-content/plugins/all-in-one-seo-pack/images/shield-sprite-16.png
+1 1 0 1079 0 0 0 0
+/wp-login.php
+0 1 0 1306 0 0 0 0
+/wp-includes/css/editor.min.css
+0 1 0 8081 0 0 0 0
+/wp-content/plugins/FsForms/Forms/fs-form-view-script.js
+0 2 0 1842 0 0 0 0
+/wp-content/themes/NationalACH/images/content-top.png
+1 2 0 2454 0 0 0 0
+/wp-admin/users.php
+0 2 0 19796 0 0 0 0
+/wp-includes/js/jquery/jquery.js
+0 5 0 65570 0 0 0 0
+/wp-content/themes/NationalACH/images/sub-menu-top-bg.png
+1 3 0 5956 0 0 0 0
+/wp-content/themes/NationalACH/images/sub-menu-bg.png
+1 3 0 5604 0 0 0 0
+/wp-content/plugins/wp-paginate/wp-paginate.css
+0 4 0 940 0 0 0 0
+/wp-content/themes/NationalACH/images/contact-phones.png
+1 2 0 244374 0 0 0 0
+/wp-content/themes/NationalACH/images/contact-bottom-bg.png
+1 1 0 1733 0 0 0 0
+/wp-content/themes/NationalACH/images/footer.png
+1 4 0 594 0 0 0 0
+/wp-admin/load-styles.php
+0 3 0 73847 0 0 0 0
+/wp-content/themes/NationalACH/images/request-demo.png
+1 4 0 33758 0 0 0 0
+/wp-content/plugins/FsForms/lib/jQueryUI/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+1 1 0 280 0 0 0 0
+/wp-content/plugins/shareaholic/assets/img/check.png
+1 1 0 1721 0 0 0 0
+/wp-content/themes/NationalACH/images/slide-button-current.png
+1 3 0 868 0 0 0 0
+/wp-content/plugins/FsForms/lib/jquery.cookie.js
+0 9 0 2088 0 0 0 0
+/wp-includes/css/dashicons.min.css
+0 1 0 20943 0 0 0 0
+/wp-includes/js/thickbox/loadingAnimation.gif
+1 1 0 15238 0 0 0 0
+/wp-admin/images/wordpress-logo.svg
+0 1 0 1521 0 0 0 0
+/wp-content/themes/NationalACH/images/sub-menu-arrow.png
+1 3 0 5698 0 0 0 0
+/wp-content/themes/NationalACH/images/submit-online-app.png
+1 1 0 2815 0 0 0 0
+/wp-admin/css/wp-admin.min.css
+0 1 0 36080 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+192.168.1.1
+0 162 76 1530041 1 1404745075
+/wp-admin/users.php 0 0
+72.178.151.3
+0 57 56 798873 1 1404757281
+/ 0 0
+# End Of Table - sites (monthly)
+# -sites- (daily)
+192.168.1.1
+0 162 76 1530041 1 1404745075
+/wp-admin/users.php 0 0
+72.178.151.3
+0 57 56 798873 1 1404757281
+/ 0 0
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 8
+http://nationalach.funneldevelopment.com/services/
+1 29
+http://nationalach.funneldevelopment.com/wp-admin/
+1 19
+http://nationalach.funneldevelopment.com/wp-admin/css/wp-admin.min.css
+1 1
+http://nationalach.funneldevelopment.com/get-a-quote/
+1 2
+http://nationalach.funneldevelopment.com/services/ach-echeck-processing/
+1 2
+http://nationalach.funneldevelopment.com/wp-content/themes/NationalACH/style.css
+1 52
+http://nationalach.funneldevelopment.com/wp-login.php
+1 12
+http://nationalach.funneldevelopment.com/
+1 64
+http://nationalach.funneldevelopment.com/wp-admin/users.php
+1 18
+http://nationalach.funneldevelopment.com/wp-admin/user-new.php
+1 12
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+0 57
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:30.0) Gecko/20100101 Firefox/30.0
+0 162
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
