@@ -1,0 +1,106 @@
+/* 
+    Document   : forms-style
+    Created on : 16 May, 2013, 4:03:04 PM
+    Author     : rudyard
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.fs-form-container
+{
+    overflow: hidden;
+    position: relative;
+}
+.fs-form-container div.fs-form-row
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fs-form-container div.fs-form-row div.fs-input-label-col
+{
+    text-align: right;
+}
+.fs-form-container div.fs-form-row label.error
+{
+    display: none!important;
+}
+.fs-form-container input.error
+{
+    background-color: #FBAFB0!important;
+}
+.fs-form-container .result-success
+{
+    color: green;
+}
+.fs-form-container .fs-privacy-link
+{
+    font-size: 10pt;
+}
+.fs-form-container .fs-form-row input[type="text"],
+.fs-form-container .fs-form-row textarea
+{
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+.fs-form-container .fs-form-row textarea
+{
+    height: 75px;
+}
+.fs-form-container .fs-form-submit
+{
+    float: right;
+}
+.fs-form-container .fs-col-privacy
+{
+    
+}
+.fs-form-loader,
+.fs-scheduler-slots-loader
+{
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+}
+.fs-scheduler-calendar .ui-datepicker-inline
+{
+    margin: 10px auto;
+}
+
+a.fs-scheduler-slot
+{
+    position: relative;
+    display: block;
+    float: left;
+    background-color: #dfece3;
+    color: #3b443f;
+    padding: 3px 6px;
+    margin: 2px 4px;
+    border-radius: 5px;
+    width: 175px;
+    text-align: left;
+}
+a.fs-scheduler-slot input
+{
+    display: none;
+}
+a.fs-scheduler-slot .fs-check
+{
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-image: url('images/checks.png');
+    background-position: left;
+    overflow: hidden;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+a.fs-active-scheduler-slot
+{
+    background-color: #494b48;
+    color: white;
+}
+a.fs-active-scheduler-slot .fs-check
+{
+    background-position: -14px;
+}

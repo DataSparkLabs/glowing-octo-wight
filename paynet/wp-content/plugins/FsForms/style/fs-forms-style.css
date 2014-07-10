@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 15, 2013, 10:00:49 AM
+    Author     : rudyard
+*/
+
+
+
+
+.fs-row
+{
+    position: relative;
+    padding: 0px;
+    margin: 0px -5px;
+    box-sizing: border-box;    
+    -moz-box-sizing: border-box;
+}
+
+.fs-row:before,
+.fs-row:after 
+{
+    content:"";
+    display:table;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.fs-row:after {
+    clear:both;
+}
+.fs-row *, .fs-row *:before, .fs-row *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.fs-row .fs-col
+{
+    display: block;
+    position: relative;
+    min-height: 1px;    
+    float:left;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+.fs-row .fs-col-sm-3
+{
+    width: 30%;
+}
+.fs-row .fs-col-sm-4
+{
+    width: 33%;
+}
+.fs-row .fs-col-sm-5
+{
+    width: 40%;
+}
+.fs-row .fs-col-sm-6
+{
+    width: 50%;
+}
+.fs-row .fs-col-sm-7
+{
+    width: 60%;
+}
+.fs-row .fs-col-sm-8
+{
+    width: 66%;
+}
+.fs-row .fs-col-sm-9
+{
+    width: 70%;
+}
+.fs-row .fs-col-sm-12
+{
+    width: 100%;
+}
+@media (min-width: 480px)
+{
+    .fs-row .fs-col-3
+    {
+        width: 30%;
+    }
+    .fs-row .fs-col-4
+    {
+        width: 33%;
+    }
+    .fs-row .fs-col-5
+    {
+        width: 40%;
+    }
+    .fs-row .fs-col-6
+    {
+        width: 50%;
+    }
+    .fs-row .fs-col-7
+    {
+        width: 60%;
+    }
+    .fs-row .fs-col-8
+    {
+        width: 66%;
+    }
+    .fs-row .fs-col-9
+    {
+        width: 70%;
+    }
+    .fs-row .fs-col-12
+    {
+        width: 100%;
+    }
+}
