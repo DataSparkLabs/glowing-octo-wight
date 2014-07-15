@@ -17,6 +17,21 @@
         ga('create', 'UA-8949220-1', 'nationalach.com');
         ga('send', 'pageview');
 
+        (function ($) {
+            $( document ).ready(function() {
+                $("#menu-item-19").hover(function() {
+                    $("#faqrolldownbox").css("display","block");
+                }, function(){
+                    $("#faqrolldownbox").css("display","none");
+                });
+                $("#faqrolldownbox").hover(function() {
+                    $("#faqrolldownbox").css("display","block");
+                }, function(){
+                    $("#faqrolldownbox").css("display","none");
+                });
+            });
+        }(jQuery));
+
         </script>
     </head>
     <body>
@@ -37,5 +52,63 @@
         <div id="main-nav">
             <div class="inner">
                 <?php wp_nav_menu(array('theme_location' => 'header-menu', 'walker' => new ACHNavMenuWalker())); ?>
+            </div>
+        </div>
+
+        <div id="faqrolldownboxcontainer">
+            <div id="faqrolldownbox">
+                <div id="faqrolldownboxinnerleft">
+                    <div class="faqtitle">
+                        &nbsp;&nbsp;&nbsp;ACH FAQ
+                    </div>
+                    <div class="faqentries">
+                        <ul class="lcp_catlist">
+                        <?php
+                            $query = new WP_Query( array( 'post_type' => 'faq', 'faq_tax' => 'ach-faq' ) );
+
+                            while ( $query->have_posts() ) : $query->the_post();
+                                echo '<li><a href="/nationalach/achfaqoverview/">';
+                                the_title();
+                                echo '</a></li>';
+                            endwhile;
+                        ?>
+                        </ul>
+                    </div>
+                    </br></br>
+                    <div class="faqtitle">
+                        &nbsp;&nbsp;&nbsp;CHECK 21 FAQ
+                    </div>
+                    <div class="faqentries">
+                        <ul class="lcp_catlist">
+                         <?php
+                        $query = new WP_Query( array( 'post_type' => 'faq', 'faq_tax' => 'check-21-faq' ) );
+
+                        while ( $query->have_posts() ) : $query->the_post();
+                            echo '<li><a href="/nationalach/achfaqoverview/">';
+                                the_title();
+                                echo '</a></li>';
+                        endwhile;
+                        ?>
+                        </ul>
+                    </div>
+                </div>
+                <div id="faqrolldownboxinnerright">
+                    <div class="faqtitle">
+                        &nbsp;&nbsp;&nbsp;GENERAL QUESTIONS ON ELECTRONIC CHECKS (ECHECKS)
+                    </div>
+                    <div class="faqentries">
+                         <ul class="lcp_catlist">
+                         <?php
+                        $query = new WP_Query( array( 'post_type' => 'faq', 'faq_tax' => 'general-questions-on-electronic-checks-echecks' ) );
+
+                        while ( $query->have_posts() ) : $query->the_post();
+                            echo '<li><a href="/nationalach/generalquestionsonelectronicchecksechecks/">';
+                                the_title();
+                                echo '</a></li>';
+                        endwhile;
+                        ?>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
