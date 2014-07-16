@@ -1049,6 +1049,11 @@ h3
     -webkit-box-shadow: 10px 10px 5px #cccccc;
 }
 
+#container #content .inner .content-left .rates-container table a
+{
+    text-decoration: none;
+}
+
 #container #content .inner .content-left .rates-container tr
 {
     width: 25%;

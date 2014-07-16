@@ -144,7 +144,130 @@ class ACHNavMenuWalker extends Walker {
 	function end_el( &$output, $item, $depth = 0, $args = array() ) {
 		$output .= "</li>\n";
 	}
+	
 }
 
+function get_rates_table($atts) {
+	$url = home_url();
+	$somethint = '<a href="' .$url .'/services/ach-processing/"">something</a>';
+		$table = '<table>
+				<tr>
+					<th>SERVICE
+					</th>
+					<th>FEATURES
+					</th>
+					<th>BENEFITS
+					</th>
+					<th>RATE RANGE
+					</th>
+				</tr>
+
+				<tfoot>
+					<tr>
+						<td colspan="4"></td>
+					</tr>
+				</tfoot>
+				<tr>
+					<td>						
+						<a href="' .$url .'/services/ach-processing/">ACH Payments</a>
+					</td>
+					<td>
+						<ul>
+							<li>ACH debits</li>
+							<li>ACH credits</li>
+							<li>One time and recurring payments</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Get Your Money Faster Automate Cash Flow</li>
+							<li>Receive/send funds easily</li>
+							<li>Automation increases profits</li>
+						</ul>
+					</td>
+					<td>Per transaction 25-65 cents
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="' .$url .'/services/ach-processing/">Electronic Checks</a>
+					</td>
+					<td>
+						<ul>
+							<li>Accept echecks online</li>
+							<li>Take checks by phone, mail or fax</li>
+							<li>Recurring payments included</li>
+							<li>Easy integration to your checkout page</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Increase sales up to 20%</li>
+							<li>Get new customers</li>
+							<li>Expanded payment options boost business</li>
+							<li>Competitive advantage</li>
+						</ul>
+					</td>
+					<td>Per transaction 35-45 cents 
+						Discount rate 0.5% – 1.5% 
+						(flat rate pricing also available)
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="' .$url .'/services/high-risk-processing/">High Risk Merchant Accounts</a>
+					</td>
+					<td>
+						<ul>
+							<li>Alternative to card payments</li>
+							<li>Easier to obtain than card accounts</li>
+							<li>All high risk accepted</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Fast approval</li>
+							<li>Get more orders</li>
+							<li>Save money compared to card rates</li>
+							<li>Perfect for subscriptions & membership</li>
+						</ul>
+					</td>
+					<td>Per transaction 25-50 cents
+						Discount rate
+						1.95%-2.95%
+						(flat rate pricing also available)
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="' .$url .'/services/international-payments/">International Payments</a>
+					</td>
+					<td>
+						<ul>
+							<li>Localized payments</li>
+							<li>Customize country coverage</li>
+							<li>Save money on foreign exchange conversion</li>
+							<li>Settle in any currency</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Expand target markets</li>
+							<li>Increase sales up to 40%</li>
+							<li>No chargebacks </li>
+							<li>Trusted & familiar payment expands profits.</li>
+						</ul>
+					</td>
+					<td>Based on chosen countries.  
+						Call today to get your free quotation.
+					</td>
+				</tr>
+			</table>';
+
+			return $table;
+
+	}
+
+ add_shortcode('ratestable', 'get_rates_table');
 
 ?>
