@@ -68,7 +68,9 @@
                             $query = new WP_Query( array( 'post_type' => 'faq', 'faq_tax' => 'ach-faq' ) );
 
                             while ( $query->have_posts() ) : $query->the_post();
-                                echo '<li><a href="/nationalach/achfaqoverview/">';
+                                echo '<li><a href="';
+                                echo get_site_url();
+                                echo '/achfaqoverview/">';
                                 the_title();
                                 echo '</a></li>';
                             endwhile;
@@ -85,7 +87,10 @@
                         $query = new WP_Query( array( 'post_type' => 'faq', 'faq_tax' => 'check-21-faq' ) );
 
                         while ( $query->have_posts() ) : $query->the_post();
-                            echo '<li><a href="/check21overview/">';
+                            echo '<li><a href="';
+                            echo get_site_url();
+                            echo '/check21faqoverview/">';
+
                             the_title();
                             echo '</a></li>';
                         endwhile;
@@ -103,7 +108,9 @@
                         $query = new WP_Query( array( 'post_type' => 'faq', 'faq_tax' => 'general-questions-on-electronic-checks-echecks' ) );
 
                         while ( $query->have_posts() ) : $query->the_post();
-                            echo '<li><a href="/nationalach/generalquestionsonelectronicchecksechecks/">';
+                            echo '<li><a href="';
+                            echo get_site_url();
+                            echo '/generalquestionsonelectronicchecksechecks/">';
                                 the_title();
                                 echo '</a></li>';
                         endwhile;
