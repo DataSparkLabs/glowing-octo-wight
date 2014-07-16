@@ -32,6 +32,7 @@
             });
         }(jQuery));
 
+
         </script>
     </head>
     <body>
@@ -84,9 +85,9 @@
                         $query = new WP_Query( array( 'post_type' => 'faq', 'faq_tax' => 'check-21-faq' ) );
 
                         while ( $query->have_posts() ) : $query->the_post();
-                            echo '<li><a href="/nationalach/achfaqoverview/">';
-                                the_title();
-                                echo '</a></li>';
+                            echo '<li><a href="/check21overview/">';
+                            the_title();
+                            echo '</a></li>';
                         endwhile;
                         ?>
                         </ul>
